@@ -1,8 +1,24 @@
 {
-    ...,
-    "lint-staged": {
-      "*.{ts,tsx}": [
-        "prettier --write"
-      ]
-    }
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "author": "",
+  "license": "ISC"
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write"
+    ]
   }
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  }
+}
