@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\taker\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D husky prettier
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Fujitsu\FJAgent\Core\bin;C:\Program Files\nodejs\;C:\Users\taker\AppData\Local\Microsoft\WindowsApps;C:\Users\taker\AppData\Roaming\npm;C:\Users\taker\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\taker\OneDrive\デスクトップ\NETFLIX\package.json: Expected property name or '}' in JSON at position 6
+      at JSON.parse (<anonymous>)
+      at C:\Users\taker\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\taker\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\taker\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      ...,
+      "lint-staged": {
+        "*.{ts,tsx}": [
+          "prettier --write"
+        ]
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
